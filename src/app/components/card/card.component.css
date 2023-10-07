@@ -1,0 +1,63 @@
+
+.container-alta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container{
+  border: solid black 1px;
+  width: 240px;
+  height: 350px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2A3535;
+  border-radius: 18px;
+
+}
+.pequisa{
+ margin-bottom: 10px;
+  border-radius: 18px;
+  width: 200px;
+  height: 25px;
+  background-color: gray;
+  text-align: center;
+  border: blue;
+
+}
+
+
+
+
+.card-titles > h3 {
+  color: #DAEFEF;
+  font-weight: 600;
+
+}
+
+.card-body{
+  background-color: #536262;
+  width: 75%;
+  height: 70%;
+  border-radius: 11px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.card-starts{
+  padding-top: 10px;
+
+}
+.card-atribute{
+ color: white;
+ background-color: coral;
+ border-radius: 10px;
+ padding: 5px;
+ margin: 0 10px 0 10px;
+}
